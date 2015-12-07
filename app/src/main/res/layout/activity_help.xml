@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.luis.breastawarenessapp.PreventionActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+
+        android:id="@+id/presidentialtap"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:showDividers="middle"
+            android:weightSum="1">
+
+
+            <TextView android:text="My Presidential Tap v1.0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView10" />
+
+
+            <TextView android:text="Background: "
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:text="This app is a game intended for the upcoming Presidential election. It gives the player a choice of candidate and compete with other player's candidates. It serves as an outlook on which candidate has the more potential in winning. This app also gives an overview of the presidential candidate's voters and supporters."
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView2"
+                />
+
+            <TextView
+                android:text="Instructions:"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView11" />
+
+            <TextView
+                android:text="Choose the presidential candidate from the main menu. Points is gained by simply tapping the picture of the chosen candidate. The number of taps is equivalent to the number of points. A maximum of 1 hour is alloted for the player to tap and can only play again after a day(24hrs). The total of taps for the candidates is shown in the main menu."
+
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+
+                android:id="@+id/textView12" />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Support Information"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                />
+
+            <TextView
+                android:text="My Presidential Tap is developed by JML"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                />
+            <TextView
+                android:text="Janssen Co - Mac Fallar - Luis Lerit"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/textView7"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="Credits"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="In partial fulfillment of the requirements for LBYCP24. With the help of our professor, Engr. Melvin Cabatuan "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

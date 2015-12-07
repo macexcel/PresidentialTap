@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PresidentialTap</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_candidates">Candidates</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_binay">Binay</string>
+    <string name="title_activity_stats">stats</string>
+    <string name="shared_preference_presidentialtap">shared_preference_presidentialtap</string>
+    <string name="serviceUri">https://mypresidentialtapandroidservice.azure-mobile.net/</string>
+    <string name="serviceKey">QDLgMsCyTAjFXpGEkDzVEODLJGORUX87</string>
+</resources>
